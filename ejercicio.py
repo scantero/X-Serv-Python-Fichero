@@ -9,6 +9,6 @@ for linea in usuarios:
     contenido = linea.split(":")
     print "usuario:", contenido[0], "-> shell:", contenido[-1],
     
-print "Número de usuarios:",len(usuarios),
+print "Número de usuarios:", len(usuarios),
     
 fichero.close()
